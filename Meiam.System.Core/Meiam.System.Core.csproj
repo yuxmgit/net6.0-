@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSRedisCore" Version="3.8.670" />
+    <PackageReference Include="SqlSugarCore" Version="5.1.4.86" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Meiam.System.Common\Meiam.System.Common.csproj" />
+    <ProjectReference Include="..\Meiam.System.Model\Meiam.System.Model.csproj" />
+  </ItemGroup>
+
+</Project>
